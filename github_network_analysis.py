@@ -24,7 +24,7 @@ plt.hist(list(nx.betweenness_centrality(G).values()))
 plt.show()
 
 ################################################################################
-# Visualize the network
+# VISUALIZE THE NETWORK
 ################################################################################
 
 # MatrixPlot of largest subgraph
