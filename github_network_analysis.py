@@ -1,6 +1,6 @@
 import pickle
 
-file = open('C:\\Users\cmcelmury\Documents\Python\Datasets\github_users.p', 'rb')
+file = open('https://github.com/cortmcelmury/network_analysis/blob/master/data/github_users.p', 'rb')
 G = pickle.load(file)
 file.close()
 
